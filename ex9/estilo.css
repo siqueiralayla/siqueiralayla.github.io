@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2? family= Questrial & display=swap');
+nav li, a:link{
+    color:blue;
+
+} 
+nav a:visited{
+    color: maroon;
+} 
+nav a:active{
+    color: darkgreen;
+} 
+nav a:hover{
+    background-color: yellow;
+}
+
+nav li::before{
+    content: "\279D";
+}
+
+main{
+    background-image:url(coracao.webp) ;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.paragrafo{
+    background-color: gray;
+}
+
+#SegundoH1{
+    font-family: 'Questrial', sans-serif;
+    
+}
+article p{
+     text-align: center;
+     color: blue;
+}
+
