@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src='formulario.js'>
+    </script>
+</head>
+<body>
+    <h1>Formulário de Aluguel de carros</h1>
+    <form action="#" method="POST">
+        <fieldset>
+          
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+           
+            
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone">
+            <br>
+            <br>
+
+            <div>
+
+            <div>
+                <label>Data retirada:</label>
+                <input id="date" type="date">
+            </div>
+            <br>
+            
+            <div>
+
+                <label>Data devolução:</label>
+                <input id="date" type="date">
+                
+            </div>
+            <br>    
+            <p>Cidade de Entrega</p>
+            <input id='input1' type="number" name="cidade" value="" placeholder="Campos'1'; Rio'2'; Vitória'3' ">
+            <div>
+            <br>
+            
+
+            </div>
+            
+            <label for="cidadeRetirada">Cidade de Retirada:</label>
+            <input id='input2' type="number" name="cidadeRetirada" value="" placeholder="Campos'1'; Rio'2'; Vitória'3' ">
+            <br>
+            <div>
+                <br>
+            </div>
+            
+            <label for="tipocarro">Tipo de carro:</label>
+            <input id='input3' type="number" name="tipoCarro" value="" placeholder="Básico'1'; Ar'2'; Executivo'3' ">
+            <br>
+            <div>
+                <br>
+
+                <label for="cidade">Cidade de Entrega:</label>
+                <select name="cidadeEntrega" id="cidadeEntrega">
+                  <option value="CP">Campos dos Goytacazes-RJ</option>
+                  <option value="RJ">Rio de Janeiro-RJ</option>
+                  <option value="ES">Vitória-ES</option>
+                
+                </select>
+              </div>
+             
+              <br>
+              
+              <div>
+                <label for="cidade">Cidade de retirada:</label>
+                <select name="cidadeRetirada" id="cidaderetirada">
+                
+                  <option value="CP">Campos dos Goytacazes-RJ</option>
+                  <option value="RJ">Rio de Janeiro-RJ</option>
+                  <option value="ES">Vitória-ES</option>
+                  
+              
+            
+        </fieldset>
+        <br>
+    
+        <input type="button" name="enviar" value="enviar" onclick='calculoJuros()'>
+        
+      </form>
+      
+    
+</body>
+</html> 
